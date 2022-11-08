@@ -1,0 +1,124 @@
+html{
+    margin: 0px 20px 20px 20px;
+    
+
+}
+/* @keyframes resize {
+    0%, 100% {
+      width: 100%;
+    }
+    50% {
+      width: 50%;
+    }
+  } */
+ 
+@media only screen and (max-width: 1000px) and  {
+    .songs {
+      background-color: rgba(255, 255, 255, 0.445);
+     
+      margin-left:25px;
+      
+    }
+  }
+  @media only screen and (max-width: 1920px) and (min-width: 1200px) {
+    .songs {
+      background-color: rgb(255, 255, 255);
+      margin-left: 450px;
+    }
+  }
+
+
+.button{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border-radius: 6px;
+
+}
+#btn{
+    border-radius: px;
+    margin-right: 1px;
+}
+.dropdown{
+    margin-left: 10px;
+}
+.newrelease{
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.dashboard{
+    display: flex;
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+#coverimg{
+    height: 100px;
+    width: 110px;
+    border-radius: 10px;
+
+    
+}
+.songs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 450px; */
+    padding: 20px;
+    /* background: rgb(104, 108, 240);
+background: linear-gradient(90deg, rgba(51,55,179,1) 10%, rgb(223, 210, 210) 100%);
+    margin-top: px; */
+    border-radius: 1px;
+    width: max-content;
+    padding-top: 5px;
+    padding-bottom: 0px;
+   
+   
+   
+}
+.songcard,.songcard2{
+background-color: #dddddd;
+border-radius: 10px;
+width: 240px;
+height: 100px;
+margin-bottom: 10px;
+margin-right: 20px;
+
+
+}
+
+/* .songcard{
+    background-color: rgb(214, 166, 166);
+    border-radius: 5px;
+    width: 240px;
+    height: 100px;
+    align-items: center;
+  
+
+    } */
+    
+
+#imgtxt,#imgtxt2,#imgtxt3{
+    display: flex;
+    position: relative;
+    left: 120px;
+    bottom: 115px;
+  text-decoration: none;
+    
+    
+}
+
+#txtlink{
+    text-decoration: none;
+    font-size:5px;
+   
+    font-weight: 0px;
+}
+.copyright{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 500px;
+}
+
